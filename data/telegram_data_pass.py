@@ -1,0 +1,2 @@
+get_currency_info_bot_token = '5254144084:AAEm5L5AI9mYibSVvhl4FUhSN7-vowEqj8s'
+get_currency_info_bot2_token = '5186065006:AAEh4I_J9ViUVuH1v-aoDCU7ybLjzhd2EJQ'
