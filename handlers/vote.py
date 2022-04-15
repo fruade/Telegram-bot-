@@ -1,5 +1,5 @@
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from TelegramBot.create_bot import dp
+from create_bot import dp
 from aiogram.dispatcher.filters import Text
 from aiogram import types, Dispatcher
 

@@ -2,11 +2,11 @@ import requests
 from datetime import datetime
 from aiogram.dispatcher.filters import Text
 from aiogram import types, Dispatcher
-from TelegramBot.create_bot import dp, bot
-from TelegramBot.keyboards import keyboard_menu
-from TelegramBot.handlers.yobit_info_valuta import menu_valut
-from TelegramBot.handlers.weather_show import show_weather
-from TelegramBot.handlers.vote import vote_start
+from create_bot import dp, bot
+from keyboards import keyboard_menu
+from .yobit_info_valuta import menu_valut
+from .weather_show import show_weather
+from .vote import vote_start
 
 
 async def show_menu(message: types.Message):

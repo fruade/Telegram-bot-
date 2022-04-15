@@ -1,12 +1,12 @@
 import string
 from aiogram import types, Dispatcher
 from aiogram.dispatcher.filters import Text
-from TelegramBot.data.check_mat import mat_list
-from TelegramBot.create_bot import dp
-from TelegramBot.handlers.yobit_info_valuta import get_data_pairs
-from TelegramBot.handlers.weather_show import weather
-from TelegramBot.handlers.vote import vote
-from TelegramBot.handlers.client import show_menu
+from data.check_mat import mat_list
+from create_bot import dp
+from handlers.yobit_info_valuta import get_data_pairs
+from handlers.weather_show import weather
+from handlers.vote import vote
+from handlers.client import show_menu
 
 #@dp.message_handler()
 async def check_message(message: types.Message):

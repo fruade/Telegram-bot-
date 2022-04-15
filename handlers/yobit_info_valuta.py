@@ -1,7 +1,7 @@
 import requests
 from datetime import datetime
 from aiogram import types
-from TelegramBot.create_bot import bot
+from create_bot import bot
 
 def get_data_pairs(pairs='BTC_USD'):
     pairs = pairs.lower()

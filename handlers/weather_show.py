@@ -1,6 +1,6 @@
 import requests
 from aiogram import types
-from TelegramBot.create_bot import bot
+from create_bot import bot
 
 def weather(city):
     params = {

@@ -1,2 +1,5 @@
 venv
 telegram_data_pass.py
+data/telegram_data_pass.py
+.idea/
+__pycache__/

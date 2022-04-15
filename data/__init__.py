@@ -1,4 +1,4 @@
-from data import check_mat
-from data import telegram_data_pass
+from . import check_mat
+from . import telegram_data_pass
 
 
